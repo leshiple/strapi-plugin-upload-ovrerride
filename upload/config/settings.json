@@ -1,0 +1,25 @@
+{
+  "enabled": true,
+  "provider": "local",
+  "presets": {
+    "678": [
+      {
+        "name": "md",
+        "width": 1000,
+        "height": 600,
+        "extensions": ["jpg", "webp"],
+        "fit": "cover"
+      },
+      {
+        "name": "sm",
+        "width": 600,
+        "height": 400,
+        "extensions": ["jpg", "webp"],
+        "fit": "cover"
+      }
+    ]
+  },
+  "providerOptions": {
+    "sizeLimit": 1000000
+  }
+}
